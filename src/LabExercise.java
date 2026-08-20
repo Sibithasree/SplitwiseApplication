@@ -1,28 +1,32 @@
-import java.awt.*;
 import java.util.Scanner;
+
 
 class LabExcercise{
     public static void main(String args[]){
-        int choice=2;
-        System.out.println(choice==2);
-        System.out.println(choice!=3);
-        System.out.println(choice>=1&&choice<=3);
-
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter your choice:");
-        int choice= scanner.nextInt();
-        if(choice==1){
-            System.out.println("Add");
-        }
-        else if(choice==2)
-        {
-            System.out.println("View");
-        }
-        else if(choice==3){
-            System.out.println("Exit");
-        }
-        else{
-            System.out.println("Invalid");
+        final int add=1;
+        final int view=2;
+        final int exit=3;
+        System.out.println("enter the choice:");
+        int choice=scanner.nextInt();
+        switch(choice){
+            case add->{
+                System.out.println("Add");
+            }
+            case view-> {
+
+                System.out.println("View");
+            }
+            case exit-> {
+
+
+                System.out.println("Exit");
+            }
+            default->
+                    System.out.println("Invalid");
+            int num=5;
+            for(int i=1;i<=num;i++){
+                System.out.println(i);
+            }
         }
     }
-}
