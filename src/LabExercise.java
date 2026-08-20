@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.util.Scanner;
 
-class LabExercise{
+class LabExcercise{
     public static void main(String args[]){
         int choice=2;
         System.out.println(choice==2);
